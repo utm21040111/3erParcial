@@ -1,9 +1,9 @@
-import { modelo1 } from "../models/alumno.model";
+import { modelo1 } from "../models/alumno.model.js";
 
-modelo.create({
+modelo1.create({
     name:"el choyas"
-})
+});
 
-import const test= ()=>{
-    console.log("si funciona el controlador")
-}
+export const test1 = () => { 
+    console.log("si funciona el controlador");
+};
